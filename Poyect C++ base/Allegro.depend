@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1424909757 source:f:\poyect c++\inicia.cpp
+	"inicia.h"
+	<allegro.h>
+
+1341432202 f:\poyect c++\inicia.h
+
+1425185517 source:f:\poyect c++\main.cpp
+	<allegro.h>
+	"inicia.h"
+	<math.h>
+
+1424927673 f:\poyect c++\libs.h
+	<iostream>
+	<string.h>
+	"libs/jugador.h"
+	"arquitectura.h"
+	"libs/teclado.h"
+
+1424927569 f:\poyect c++\libs\jugador.h
+
+1424925636 f:\poyect c++\libs\teclado.h
+
+1424926132 f:\poyect c++\libs\arquitectura.h
+
+1424927788 f:\poyect c++\arquitectura.h
+
