@@ -21,3 +21,14 @@
 	"inicia.h"
 	<math.h>
 
+1441884823 source:c:\users\camilo\documents\github\motor_fisico_c_pp\poyect c++ base\inicia.cpp
+	"inicia.h"
+	<allegro.h>
+
+1441884823 c:\users\camilo\documents\github\motor_fisico_c_pp\poyect c++ base\inicia.h
+
+1441884823 source:c:\users\camilo\documents\github\motor_fisico_c_pp\poyect c++ base\main.cpp
+	<allegro.h>
+	"inicia.h"
+	<math.h>
+

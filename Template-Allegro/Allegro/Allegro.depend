@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1441884823 source:c:\users\camilo\documents\github\motor_fisico_c_pp\template-allegro\allegro\inicia.cpp
+	"inicia.h"
+	<allegro.h>
+
+1441884823 c:\users\camilo\documents\github\motor_fisico_c_pp\template-allegro\allegro\inicia.h
+
+1441886699 source:c:\users\camilo\documents\github\motor_fisico_c_pp\template-allegro\allegro\main.cpp
+	<allegro.h>
+	"inicia.h"
+	<iostream>
+	<math.h>
+	<vector>
+
