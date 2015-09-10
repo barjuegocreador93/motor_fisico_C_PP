@@ -6,12 +6,9 @@
 
 using namespace std;
 
-typedef BITMAP *img;/**Imagenes por direcciones de memoria*/
-vector<img>vImg;/**Vector de imagenes*/
-
-
 /** Include tus .h **/
-
+#include "AllegroObj.h"
+//..
 /** Include ends **/
 
 int main()
@@ -23,7 +20,7 @@ int main()
     img buffer;
     vImg.push_back(buffer);
 
-    vImg[0] = create_bitmap(600,800);/**Crear una imagen con tamaño de alto x ancho*/
+    vImg[0] = create_bitmap(600,800);/**Crear una imagen con tamaÃ±o de alto x ancho*/
     clear_to_color(vImg[0],0x999999);/**limpiar la imagen y darle un color*/
 
     textout_centre_ex(vImg[0], font,"Hola Mundo con Allegro!",160,25,0xFFFFFF,0x999999);/**Escribir un texto!*/
