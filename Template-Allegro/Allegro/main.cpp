@@ -3,6 +3,7 @@
 #include <iostream>
 #include <math.h>
 #include <vector>
+#include <string.h>
 
 using namespace std;
 
@@ -29,10 +30,7 @@ int main()
     readkey();
 
     /**DESTRUCTORES: */
-    for(int i=0;i<vImg.size();i++)
-    {
-        destroy_bitmap(vImg[i]);
-    }
+
 
     return 0;
 }
