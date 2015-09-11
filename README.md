@@ -1,4 +1,10 @@
 # Template de alegro simple
 Herramineta basica de C++ para crear videojuegos en Windows
 #Instalar el alegro
-[Mira este video](https://www.youtube.com/watch?v=xjQHQzhmOQ8)
+
+[Intall Allegro](https://github.com/barjuegocreador93/motor_fisico_C_PP/tree/install-allegro)
+
+
+# [Wiki](https://github.com/barjuegocreador93/motor_fisico_C_PP/wiki/template-Allegro-Obj) 
+
+
