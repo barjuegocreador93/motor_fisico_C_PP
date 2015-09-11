@@ -18,19 +18,12 @@ int main()
     inicia_audio(70,70);/**Sonido*/
 
     /**Crear imagenes*/
-    img buffer;
-    vImg.push_back(buffer);
+    setBitmap my_imgs;
+    my_imgs.create_new_bitmap(600,800,0x999999);
+    my_imgs.text_over(0,"Hola mundo con Allegro Obj!!",160,25,0xFFFFFF,0x999999);
+    my_imgs.print(0,0,0,0,0,600,800);
 
-    vImg[0] = create_bitmap(600,800);/**Crear una imagen con tamaño de alto x ancho*/
-    clear_to_color(vImg[0],0x999999);/**limpiar la imagen y darle un color*/
-
-    textout_centre_ex(vImg[0], font,"Hola Mundo con Allegro!",160,25,0xFFFFFF,0x999999);/**Escribir un texto!*/
-
-    blit(vImg[0],screen,0,0,0,0,600,800);
     readkey();
-
-    /**DESTRUCTORES: */
-
 
     return 0;
 }
